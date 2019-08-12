@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@app": ["*"]
+    },
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2015.promise"
+    ],
+    "skipLibCheck": true,
+    "inlineSourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

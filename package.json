@@ -1,0 +1,25 @@
+{
+  "name": "ui-components",
+  "version": "1.0.0",
+  "description": "UI-Components es una librería de componentes hecha con ReactJS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "papyrum dev",
+    "build:tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TSFran/ui-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TSFran/ui-components/issues"
+  },
+  "homepage": "https://github.com/TSFran/ui-components#readme",
+  "dependencies": {
+    "@papyrum/cli": "1.2.0-alpha.0",
+    "@papyrum/ui-docs": "1.2.0-alpha.0"
+  }
+}
