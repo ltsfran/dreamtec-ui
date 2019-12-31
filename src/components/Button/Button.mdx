@@ -5,17 +5,101 @@ status: development
 
 import { Playground, Props } from '@papyrum/ui-docs';
 import { Button } from './Button';
+import { ButtonGroups } from './styled';
 
 # Button
 
 ```
-import { Button } from 'dreamtec'
+import { Button } from '@dreamtec-ui'
 ```
 
 ### Basic Usage
 
 <Playground>
-  <Button>Test</Button>
+  <Button>Default</Button>
+</Playground>
+
+### Variants
+
+Set variants using ***variant*** prop.
+
+<Playground>
+  <ButtonGroups>
+    <Button>Default</Button>
+    <Button variant="primary">Primary</Button>
+    <Button variant="secondary">Secondary</Button>
+    <Button variant="success">Success</Button>
+    <Button variant="danger">Danger</Button>
+    <Button variant="warning">Warning</Button>
+  </ButtonGroups>
+</Playground>
+
+### Loading
+
+To indicate a button is loading, use the ***isLoading*** prop.
+
+<Playground>
+  <ButtonGroups>
+    <Button isLoading>Default</Button>
+    <Button isLoading variant="primary">Primary</Button>
+    <Button isLoading variant="secondary">Secondary</Button>
+    <Button isLoading variant="success">Success</Button>
+    <Button isLoading variant="danger">Danger</Button>
+    <Button isLoading variant="warning">Warning</Button>
+  </ButtonGroups>
+</Playground>
+
+### Disabled
+
+To indicate a button is disabled, use the ***isDisabled*** prop.
+
+<Playground>
+  <ButtonGroups>
+    <Button isDisabled>Default</Button>
+    <Button isDisabled variant="primary">Primary</Button>
+    <Button isDisabled variant="secondary">Secondary</Button>
+    <Button isDisabled variant="success">Success</Button>
+    <Button isDisabled variant="danger">Danger</Button>
+    <Button isDisabled variant="warning">Warning</Button>
+  </ButtonGroups>
+</Playground>
+
+### Size
+
+Set sizes using ***size*** prop.
+
+<Playground>
+  <ButtonGroups>
+    <Button size="small">Small</Button>
+    <Button size="normal">Normal</Button>
+    <Button size="medium">Medium</Button>
+    <Button size="large">Large</Button>
+  </ButtonGroups>
+</Playground>
+
+### Display
+
+To take full width of the parent element, use ***fullWidth*** prop.
+
+<Playground>
+  <ButtonGroups>
+    <Button fullWidth size="small">Small</Button>
+    <Button fullWidth size="normal">Normal</Button>
+    <Button fullWidth size="medium">Medium</Button>
+    <Button fullWidth size="large">Large</Button>
+  </ButtonGroups>
+</Playground>
+
+### Custom width
+
+Custom button width, use ***width*** prop.
+
+<Playground>
+  <ButtonGroups>
+    <Button width={400}>Normal 400</Button>
+    <Button width={600}>Normal 600</Button>
+    <Button width={800}>Normal 800</Button>
+  </ButtonGroups>
 </Playground>
 
 ### Props
