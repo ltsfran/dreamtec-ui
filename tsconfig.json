@@ -3,9 +3,6 @@
     "target": "ES5",
     "jsx": "react",
     "baseUrl": ".",
-    "paths": {
-      "@app": ["*"]
-    },
     "moduleResolution": "node",
     "lib": [
       "dom",
@@ -13,8 +10,11 @@
       "es2015.promise"
     ],
     "skipLibCheck": true,
-    "inlineSourceMap": true
+    "inlineSourceMap": true,
+    "outDir": "dist",
+    "esModuleInterop": true
   },
+  "include": ["src/**/*"],
   "exclude": [
     "node_modules"
   ]

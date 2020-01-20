@@ -1,0 +1,10 @@
+.DS_Store
+.editorconfig
+.gitignore
+/static
+/src
+.mdx*
+.papyrum
+papyrum.config.js
+tsconfig.json
+yarn.lock
