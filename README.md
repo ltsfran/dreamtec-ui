@@ -1,3 +1,3 @@
-# UI-Components
+# DreamTec UI
 
-UI-Components es una librería de componentes hecha con ReactJS.
+DreamTec UI is a library of components made in ReactJS.

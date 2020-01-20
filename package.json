@@ -1,23 +1,25 @@
 {
-  "name": "ui-components",
-  "version": "1.0.0",
-  "description": "UI-Components es una librería de componentes hecha con ReactJS.",
-  "main": "index.js",
+  "name": "dreamtec-ui",
+  "version": "0.1.0",
+  "description": "DreamTec UI is a library of components made in ReactJS",
   "scripts": {
     "dev": "papyrum dev",
     "build:tsc": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TSFran/ui-components.git"
+    "url": "git+https://github.com/ltsfran/dreamtec-ui"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "documentation",
+    "react"
+  ],
+  "author": "Luis Tupa <luistupa7@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TSFran/ui-components/issues"
+    "url": "https://github.com/ltsfran/dreamtec-ui/issues"
   },
-  "homepage": "https://github.com/TSFran/ui-components#readme",
+  "homepage": "https://github.com/ltsfran/dreamtec-ui#readme",
   "dependencies": {
     "@papyrum/cli": "1.2.0-alpha.0",
     "@papyrum/ui-docs": "1.2.0-alpha.0"
