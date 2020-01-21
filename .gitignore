@@ -1,5 +1,5 @@
-/.papyrum
-/node_modules
-yarn.lock
-.DS_Store
 dist/
+node_modules/
+.papyrum/
+.DS_Store
+package-lock.json
