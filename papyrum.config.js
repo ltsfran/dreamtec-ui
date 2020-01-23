@@ -1,7 +1,8 @@
 export default {
-  title: 'DreamTec',
+  title: 'DreamTec UI',
   typescript: true,
-  logo: 'logo.png',
+  logo: 'https://ltsfran.github.io/ui-logo.png',
+  template: 'template/index.html',
   menu: [
     'Introduction',
     'Colors',
