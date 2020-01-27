@@ -1,6 +1,6 @@
 {
   "name": "dreamtec-ui",
-  "version": "0.1.1-alpha.5",
+  "version": "0.1.1",
   "description": "DreamTec UI is a library of components made in ReactJS",
   "main": "dist/index.js",
   "scripts": {
