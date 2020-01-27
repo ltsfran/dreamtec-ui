@@ -24,7 +24,6 @@
   "homepage": "https://github.com/ltsfran/dreamtec-ui#readme",
   "dependencies": {
     "@papyrum/cli": "1.7.0-alpha.0",
-    "@papyrum/ui-docs": "1.7.0-alpha.0",
     "typescript": "3.7.5"
   }
 }
