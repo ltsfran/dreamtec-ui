@@ -4,10 +4,10 @@
   "npmClient": "yarn",
   "command": {
     "publish": {
-      "message": "chore: publish release %s"
+      "message": "chore: publish release"
     },
     "version": {
-      "message": "chore: publish release %s"
+      "message": "chore: publish release"
     }
   }
 }
