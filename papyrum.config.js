@@ -9,5 +9,9 @@ export default {
     'Colors',
     'Components'
   ],
-  template: './static/index.html'
+  template: './static/index.html',
+  ignore: [
+    'README.md',
+    'packages/**/*.md'
+  ]
 }
