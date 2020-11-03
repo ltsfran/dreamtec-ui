@@ -1,6 +1,6 @@
 {
   "name": "@dreamtec-ui/input",
-  "version": "1.0.0-alpha.7",
+  "version": "1.0.0-alpha.8",
   "author": "Luis Tupa <luistupa7@gmail.com>",
   "main": "dist/index.js",
   "homepage": "https://github.com/ltsfran/dreamtec-ui/tree/master/packages/Input#readme",
