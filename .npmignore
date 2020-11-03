@@ -1,9 +1,0 @@
-.DS_Store
-.papyrum
-.editorconfig
-.gitignore
-papyrum.config.js
-tsconfig.json
-yarn.lock
-static/
-src/
