@@ -2,4 +2,6 @@ dist/
 node_modules/
 .papyrum/
 .DS_Store
-package-lock.json
+lerna-debug.log
+yarn-error.log
+packages/**/dist

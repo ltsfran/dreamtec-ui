@@ -18,8 +18,8 @@ export const Button: React.FC<Props> = ({
   isLoading,
   isDisabled,
   size,
-  variant, 
-  children 
+  variant,
+  children
 }) => {
 
   if(isLoading) {
@@ -35,7 +35,7 @@ export const Button: React.FC<Props> = ({
       </ButtonStyled>
     );
   }
-  
+
   return(
     <ButtonStyled
       width={width}

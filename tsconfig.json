@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "ES5",
     "jsx": "react",
-    "baseUrl": ".",
     "moduleResolution": "node",
     "lib": [
       "dom",
@@ -11,10 +10,8 @@
     ],
     "skipLibCheck": true,
     "inlineSourceMap": true,
-    "outDir": "dist",
     "esModuleInterop": true
   },
-  "include": ["src/**/*"],
   "exclude": [
     "node_modules"
   ]
