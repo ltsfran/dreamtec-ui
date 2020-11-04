@@ -69,7 +69,7 @@ Button.propTypes = {
     'warning'
   ]),
   children: PropTypes.any
-}
+};
 
 Button.defaultProps = {
   size: 'normal',
