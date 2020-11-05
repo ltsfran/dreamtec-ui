@@ -38,5 +38,8 @@
     "react-dom": "16.8.6",
     "styled-components": "4.3.2",
     "typescript": "3.7.5"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
