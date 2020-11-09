@@ -5,6 +5,7 @@
   "npmClient": "yarn",
   "command": {
     "version": {
+      "allowBranch": "master",
       "message": "chore: publish release"
     }
   }
