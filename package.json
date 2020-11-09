@@ -1,28 +1,13 @@
 {
   "name": "dreamtec-ui",
-  "version": "1.0.0-alpha.7",
-  "description": "DreamTec UI is a library of components made in ReactJS",
-  "main": "dist/index.js",
+  "private": true,
   "scripts": {
-    "papyrum:dev": "papyrum dev",
-    "papyrum:build": "papyrum build",
-    "build:tsc": "lerna run tsc",
-    "publish": "lerna publish --force-publish"
+    "dev": "papyrum dev",
+    "build:docs": "papyrum build",
+    "build:packages": "lerna run tsc",
+    "prepublish:packages": "yarn build:packages",
+    "publish:packages": "lerna publish"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ltsfran/dreamtec-ui"
-  },
-  "keywords": [
-    "documentation",
-    "react"
-  ],
-  "author": "Luis Tupa <luistupa7@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ltsfran/dreamtec-ui/issues"
-  },
-  "homepage": "https://github.com/ltsfran/dreamtec-ui#readme",
   "devDependencies": {
     "@papyrum/cli": "1.0.3",
     "@types/react": "16.8.13",
