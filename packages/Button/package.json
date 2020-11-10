@@ -3,6 +3,12 @@
   "version": "1.0.0-rc.1",
   "author": "Luis Tupa <luistupa7@gmail.com>",
   "main": "dist/index.js",
+  "keywords": [
+    "button",
+    "react",
+    "dreamtec-ui",
+    "component"
+  ],
   "homepage": "https://github.com/ltsfran/dreamtec-ui/tree/master/packages/Button#readme",
   "license": "MIT",
   "repository": {
