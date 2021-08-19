@@ -9,7 +9,7 @@
     "publish:packages": "lerna publish"
   },
   "devDependencies": {
-    "@papyrum/cli": "1.0.3",
+    "@papyrum/cli": "1.0.6",
     "@types/react": "16.8.13",
     "@types/react-dom": "16.8.4",
     "@types/styled-components": "5.1.4",
