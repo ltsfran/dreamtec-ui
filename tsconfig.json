@@ -9,7 +9,7 @@
       "es2015.promise"
     ],
     "skipLibCheck": true,
-    "inlineSourceMap": true,
+    "sourceMap": true,
     "esModuleInterop": true
   },
   "exclude": [
