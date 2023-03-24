@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "build:packages": "lerna run build",
+    "prepublish:packages": "lerna run build",
+    "publish:packages": "lerna publish"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "6.6.0",
+    "rimraf": "3.0.2",
+    "tsup": "6.7.0",
+    "typescript": "5.0.2"
+  },
+  "dependencies": {
+    "@types/node": "18.15.6"
+  }
+}

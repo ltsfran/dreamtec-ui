@@ -1,0 +1,14 @@
+export { default as Add } from "./Add";
+export { default as AlertOctagon } from "./AlertOctagon";
+export { default as AlertTriangle } from "./AlertTriangle";
+export { default as Anchor } from "./Anchor";
+export { default as ArrowUpCircle } from "./ArrowUpCircle";
+export { default as BarChart } from "./BarChart";
+export { default as BookOpen } from "./BookOpen";
+export { default as Bookmark } from "./Bookmark";
+export { default as CheckCircle } from "./CheckCircle";
+export { default as ChevronRight } from "./ChevronRight";
+export { default as ChevronUp } from "./ChevronUp";
+export { default as ChevronsDown } from "./ChevronsDown";
+export { default as ChevronsLeft } from "./ChevronsLeft";
+export { default as Clock } from "./Clock";

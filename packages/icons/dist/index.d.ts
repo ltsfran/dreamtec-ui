@@ -1,0 +1,15 @@
+export { default as Add } from './Add.js';
+export { default as AlertOctagon } from './AlertOctagon.js';
+export { default as AlertTriangle } from './AlertTriangle.js';
+export { default as Anchor } from './Anchor.js';
+export { default as ArrowUpCircle } from './ArrowUpCircle.js';
+export { default as BarChart } from './BarChart.js';
+export { default as BookOpen } from './BookOpen.js';
+export { default as Bookmark } from './Bookmark.js';
+export { default as CheckCircle } from './CheckCircle.js';
+export { default as ChevronRight } from './ChevronRight.js';
+export { default as ChevronUp } from './ChevronUp.js';
+export { default as ChevronsDown } from './ChevronsDown.js';
+export { default as ChevronsLeft } from './ChevronsLeft.js';
+export { default as Clock } from './Clock.js';
+import 'react';
